@@ -1,0 +1,8 @@
+文件包							项目名									功能
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+microservice					microservice							创建服务提供者、消费者
+
+microservice-eureka				microservice-eureka						使用Eureka搭建服务注册中心集群
+
+microservice-eureka-ribbon		文件包改名为microservice-eureka			使用Ribbon进行负载均衡
+
