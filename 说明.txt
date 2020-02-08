@@ -6,3 +6,7 @@ microservice-eureka				microservice-eureka						使用Eureka搭建服务注册中心集群
 
 microservice-eureka-ribbon		文件包改名为microservice-eureka			使用Ribbon进行负载均衡
 
+microservice-eureka-feign		文件包改名为microservice-eureka			使用Feign请求远程服务替代RestTemplate
+
+microservice-eureka-feign-hystrix	文件包改名为microservice-eureka		使用Hystrix服务熔断器，并和Feign进行整合
+
