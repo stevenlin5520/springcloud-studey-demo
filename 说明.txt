@@ -10,3 +10,6 @@ microservice-eureka-feign		文件包改名为microservice-eureka			使用Feign请求远程服
 
 microservice-eureka-feign-hystrix	文件包改名为microservice-eureka		使用Hystrix服务熔断器，并和Feign进行整合
 
+microservice-eureka-zuul		文件包改名为microservice-eureka			使用Zuul进行路由映射、请求过滤
+
+
