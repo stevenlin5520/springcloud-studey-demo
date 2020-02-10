@@ -12,4 +12,4 @@ microservice-eureka-feign-hystrix	文件包改名为microservice-eureka		使用Hystrix服
 
 microservice-eureka-zuul		文件包改名为microservice-eureka			使用Zuul进行路由映射、请求过滤
 
-
+microservice-eureka-config		文件包改名为microservice-eureka			使用Config配置中心进行整合

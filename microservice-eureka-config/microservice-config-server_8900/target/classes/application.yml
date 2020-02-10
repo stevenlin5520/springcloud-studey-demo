@@ -1,0 +1,18 @@
+server: 
+  port: 8900 
+   
+spring:
+  application:
+    name:  microservice-config
+  cloud:
+    config:
+      server:
+        git:
+#          uri: https://github.com/stevenlin5520/SpringCloudConfig # 配置Git仓库的地址
+          uri: https://git.code.tencent.com/StevenLin/SpringCloudConfig # 配置Git仓库的地址
+          username: StevenLin          # 访问Git仓库的用户名，公开仓库可不填写
+          password: luoxianglin        # 访问Git仓库的密码，公开仓库可不填写
+          label: master                    # 配置仓库的分支
+          search-paths:                # 搜索路径，配置了才能搜索到
+          - order
+          - user 

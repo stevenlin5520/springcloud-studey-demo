@@ -1,0 +1,11 @@
+spring: 
+  application:
+    name: application-config-eureka
+  cloud:
+    config:
+      name: config      # 对应 {application} 部分
+      uri: http://configserver.steven.com:8900  # 配置中心的具体地址，即 config-server
+      profile: eureka  # 级别  对应 {profile} 部分
+      label: master  # 分支  对应 {label} 部分，即 Git 的分支(默认是master)。如果配置中心使用的是本地存储，则该参数无用
+      fail-fast: true
+ 
